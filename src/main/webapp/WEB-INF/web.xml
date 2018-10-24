@@ -12,5 +12,13 @@
         <servlet-name>CatServlet</servlet-name>
         <url-pattern>/cats</url-pattern>
     </servlet-mapping>
+    <servlet>
+        <servlet-name>ShowCatServlet</servlet-name>
+        <servlet-class>com.sdaacademy.ShowCatServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ShowCatServlet</servlet-name>
+        <url-pattern>/show</url-pattern>
+    </servlet-mapping>
 
 </web-app>

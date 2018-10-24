@@ -14,7 +14,11 @@
 <body>
 <form action="cats" method="post">
     Name: <input type="text" name="name"/>
+    Race: <input type="text" name="race"/>
     <input type="submit" value="Add a Cat"/>
 </form>
+</br>
+<a href="show">Show all cats</a>
+
 </body>
 </html>
